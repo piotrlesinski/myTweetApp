@@ -1,0 +1,58 @@
+#leftside {
+    float:left;
+    background-color:#DDD;
+    width:30%;
+    min-height:150px;
+    margin: 0;
+    padding: 15px;
+}
+
+#rightside {
+    float:left;
+    background-color:#EEE;
+    width:70%;
+    min-height:150px;
+    margin: 0;
+    padding: 15px;
+}
+
+.menu {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul, ul li {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #365;
+    padding-left: 20px;
+}
+
+ul li {
+    float: left;
+    /*background: url("zakladka.gif") no-repeat left top;*/
+    margin-right: 5px;
+}
+
+ul a:link, ul a:visited {
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    /*background: url("zakladka2.gif") no-repeat right top;*/
+    color: #365;
+    padding: 5px 15px 5px 5px;
+    margin-left: 10px;
+}
+
+ul a:hover {
+    color: #032;
+}

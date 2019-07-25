@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbadmin-bs4-rtl-master">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/resources/sbadmin-bs4-rtl-master.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
