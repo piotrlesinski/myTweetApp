@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ddf029d-db45-46a1-976e-b43e3d352025" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/lesinski/piotr/repository/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/lesinski/piotr/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/src/test/java/pl/coderslab/lesinski/piotr/service/RoleServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/lesinski/piotr/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/lesinski/piotr/service/RoleService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +134,7 @@
       <updated>1564039193400</updated>
       <workItem from="1564039197713" duration="8277000" />
       <workItem from="1564316368060" duration="7635000" />
-      <workItem from="1564344741272" duration="2895000" />
+      <workItem from="1564344741272" duration="3188000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;project rebuild&quot;">
       <created>1564039778886</created>
@@ -166,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564139341326</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;add RoleRepository&quot;">
+      <created>1564347808727</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564347808727</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +179,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;project rebuild&quot;" />
     <MESSAGE value="&quot;add DTO classes&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;add DTO classes&quot;" />
+    <MESSAGE value="&quot;add RoleRepository&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;add RoleRepository&quot;" />
   </component>
   <component name="masterDetails">
     <states>
