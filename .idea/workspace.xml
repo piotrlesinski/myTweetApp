@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ddf029d-db45-46a1-976e-b43e3d352025" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/lesinski/piotr/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role/all_roles.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/task/task_list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/lesinski/piotr/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/lesinski/piotr/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/lesinski/piotr/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/lesinski/piotr/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/lesinski/piotr/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/lesinski/piotr/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/lesinski/piotr/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/lesinski/piotr/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/lesinski/piotr/controller/RoleRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/lesinski/piotr/controller/RoleRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/lesinski/piotr/controller/RoleViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/lesinski/piotr/controller/RoleViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages_pl.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages_pl.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role/add_role.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role/add_role.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/task/addtask.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/task/add_task.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/task/alltasks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/task/all_tasks.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/task/edittask.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/task/edit_task.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/task/tasklist.jsp" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +156,7 @@
       <updated>1564039193400</updated>
       <workItem from="1564039197713" duration="8277000" />
       <workItem from="1564316368060" duration="7635000" />
-      <workItem from="1564344741272" duration="18947000" />
+      <workItem from="1564344741272" duration="24322000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;project rebuild&quot;">
       <created>1564039778886</created>
@@ -185,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564393892151</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&quot;add UserController&quot;">
+      <created>1564397368208</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564397368208</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +225,8 @@
     <MESSAGE value="&quot;add RoleRepository&quot;" />
     <MESSAGE value="&quot;add RoleService&quot;" />
     <MESSAGE value="&quot;add Spring Security&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;add Spring Security&quot;" />
+    <MESSAGE value="&quot;add UserController&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;add UserController&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

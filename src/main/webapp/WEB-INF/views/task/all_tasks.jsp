@@ -20,8 +20,8 @@
             <td>${user.user}</td>
             <td>${task.title}</td>
             <td>${task.description}</td>
-            <td><a href="/api/task/edit?id=${task.id}" name="EDIT">EDIT</a>
-                <a href="/api/task/delete?id=${task.id}" name="DELETE">DELETE</a>
+            <td><a href="/task/edit?id=${task.id}" name="EDIT">EDIT</a>
+                <a href="/task/delete?id=${task.id}" name="DELETE">DELETE</a>
                 </td>
         </tr>
     </c:forEach>
