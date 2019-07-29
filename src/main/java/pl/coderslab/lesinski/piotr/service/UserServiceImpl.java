@@ -55,13 +55,14 @@ public class UserServiceImpl implements UserService {
 
 
     @Override
-    public UserDto findByUserName(String username) {
-        User user = userRepository.findByUsername(username);
+    public UserDto findByUser(String username) {
+        User user = userRepository.findByUser(username);
         return new UserDto(user);
     }
 
+
     public User findByName(String username) {
-        return userRepository.findByUsername(username);
+        return userRepository.findByUser(username);
     }
 
     @Override
@@ -77,14 +78,4 @@ public class UserServiceImpl implements UserService {
         userRepository.deleteById(id);
     }
 
-
-    public void createAdmin(User user) {
-        user.setFirstName("admin");
-        user.setLastName("admin");
-        user.setUser("admin");
-        user.setEmail("abc@g.pl");
-        user.setPassword("admin");
-        user.setEnabled(true);
-        userRepository.save(user);
-    }
 }

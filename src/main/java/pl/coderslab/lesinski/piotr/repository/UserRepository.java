@@ -6,5 +6,5 @@ import pl.coderslab.lesinski.piotr.model.User;
 
 @Repository
 public interface UserRepository extends JpaRepository <User, Long> {
-    User findByUsername(String username);
+    User findByUser(String username);
 }
