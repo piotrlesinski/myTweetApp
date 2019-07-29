@@ -1,5 +1,6 @@
 package pl.coderslab.lesinski.piotr.model;
 import lombok.Data;
+import org.hibernate.validator.constraints.UniqueElements;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
@@ -23,12 +24,13 @@ public class User{
     @Column(name = "lastname")
     private String lastName;
 
-    @Column(name = "user")
+    @Column(unique = true)
+    @UniqueElements
     private String user;
-
 
     @Column(nullable = true, unique = true)
     @Email
+    @UniqueElements
     private String email;
 
     private String password;
